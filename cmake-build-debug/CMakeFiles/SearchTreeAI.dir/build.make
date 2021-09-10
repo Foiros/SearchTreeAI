@@ -42,10 +42,10 @@ RM = "E:\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "E:\Yliopisto toita\GitHub\SearchTreeAI"
+CMAKE_SOURCE_DIR = "E:\Yliopisto toita\GitHub\SearchTreeAI\SearchTreeAI"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "E:\Yliopisto toita\GitHub\SearchTreeAI\cmake-build-debug"
+CMAKE_BINARY_DIR = "E:\Yliopisto toita\GitHub\SearchTreeAI\SearchTreeAI\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles\SearchTreeAI.dir\depend.make
@@ -57,36 +57,57 @@ include CMakeFiles\SearchTreeAI.dir\flags.make
 
 CMakeFiles\SearchTreeAI.dir\main.cpp.obj: CMakeFiles\SearchTreeAI.dir\flags.make
 CMakeFiles\SearchTreeAI.dir\main.cpp.obj: ..\main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Yliopisto toita\GitHub\SearchTreeAI\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SearchTreeAI.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Yliopisto toita\GitHub\SearchTreeAI\SearchTreeAI\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SearchTreeAI.dir/main.cpp.obj"
 	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\SearchTreeAI.dir\main.cpp.obj /FdCMakeFiles\SearchTreeAI.dir\ /FS -c "E:\Yliopisto toita\GitHub\SearchTreeAI\main.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\SearchTreeAI.dir\main.cpp.obj /FdCMakeFiles\SearchTreeAI.dir\ /FS -c "E:\Yliopisto toita\GitHub\SearchTreeAI\SearchTreeAI\main.cpp"
 <<
 
 CMakeFiles\SearchTreeAI.dir\main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SearchTreeAI.dir/main.cpp.i"
 	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\SearchTreeAI.dir\main.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Yliopisto toita\GitHub\SearchTreeAI\main.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Yliopisto toita\GitHub\SearchTreeAI\SearchTreeAI\main.cpp"
 <<
 
 CMakeFiles\SearchTreeAI.dir\main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SearchTreeAI.dir/main.cpp.s"
 	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\SearchTreeAI.dir\main.cpp.s /c "E:\Yliopisto toita\GitHub\SearchTreeAI\main.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\SearchTreeAI.dir\main.cpp.s /c "E:\Yliopisto toita\GitHub\SearchTreeAI\SearchTreeAI\main.cpp"
+<<
+
+CMakeFiles\SearchTreeAI.dir\BinarySearchTree.cpp.obj: CMakeFiles\SearchTreeAI.dir\flags.make
+CMakeFiles\SearchTreeAI.dir\BinarySearchTree.cpp.obj: ..\BinarySearchTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Yliopisto toita\GitHub\SearchTreeAI\SearchTreeAI\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SearchTreeAI.dir/BinarySearchTree.cpp.obj"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\SearchTreeAI.dir\BinarySearchTree.cpp.obj /FdCMakeFiles\SearchTreeAI.dir\ /FS -c "E:\Yliopisto toita\GitHub\SearchTreeAI\SearchTreeAI\BinarySearchTree.cpp"
+<<
+
+CMakeFiles\SearchTreeAI.dir\BinarySearchTree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SearchTreeAI.dir/BinarySearchTree.cpp.i"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\SearchTreeAI.dir\BinarySearchTree.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Yliopisto toita\GitHub\SearchTreeAI\SearchTreeAI\BinarySearchTree.cpp"
+<<
+
+CMakeFiles\SearchTreeAI.dir\BinarySearchTree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SearchTreeAI.dir/BinarySearchTree.cpp.s"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\SearchTreeAI.dir\BinarySearchTree.cpp.s /c "E:\Yliopisto toita\GitHub\SearchTreeAI\SearchTreeAI\BinarySearchTree.cpp"
 <<
 
 # Object files for target SearchTreeAI
 SearchTreeAI_OBJECTS = \
-"CMakeFiles\SearchTreeAI.dir\main.cpp.obj"
+"CMakeFiles\SearchTreeAI.dir\main.cpp.obj" \
+"CMakeFiles\SearchTreeAI.dir\BinarySearchTree.cpp.obj"
 
 # External object files for target SearchTreeAI
 SearchTreeAI_EXTERNAL_OBJECTS =
 
 SearchTreeAI.exe: CMakeFiles\SearchTreeAI.dir\main.cpp.obj
+SearchTreeAI.exe: CMakeFiles\SearchTreeAI.dir\BinarySearchTree.cpp.obj
 SearchTreeAI.exe: CMakeFiles\SearchTreeAI.dir\build.make
 SearchTreeAI.exe: CMakeFiles\SearchTreeAI.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\Yliopisto toita\GitHub\SearchTreeAI\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable SearchTreeAI.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\Yliopisto toita\GitHub\SearchTreeAI\SearchTreeAI\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable SearchTreeAI.exe"
 	"E:\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\SearchTreeAI.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\SearchTreeAI.dir\objects1.rsp @<<
- /out:SearchTreeAI.exe /implib:SearchTreeAI.lib /pdb:"E:\Yliopisto toita\GitHub\SearchTreeAI\cmake-build-debug\SearchTreeAI.pdb" /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+ /out:SearchTreeAI.exe /implib:SearchTreeAI.lib /pdb:"E:\Yliopisto toita\GitHub\SearchTreeAI\SearchTreeAI\cmake-build-debug\SearchTreeAI.pdb" /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 
 # Rule to build all files generated by this target.
@@ -98,6 +119,6 @@ CMakeFiles\SearchTreeAI.dir\clean:
 .PHONY : CMakeFiles\SearchTreeAI.dir\clean
 
 CMakeFiles\SearchTreeAI.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" "E:\Yliopisto toita\GitHub\SearchTreeAI" "E:\Yliopisto toita\GitHub\SearchTreeAI" "E:\Yliopisto toita\GitHub\SearchTreeAI\cmake-build-debug" "E:\Yliopisto toita\GitHub\SearchTreeAI\cmake-build-debug" "E:\Yliopisto toita\GitHub\SearchTreeAI\cmake-build-debug\CMakeFiles\SearchTreeAI.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" "E:\Yliopisto toita\GitHub\SearchTreeAI\SearchTreeAI" "E:\Yliopisto toita\GitHub\SearchTreeAI\SearchTreeAI" "E:\Yliopisto toita\GitHub\SearchTreeAI\SearchTreeAI\cmake-build-debug" "E:\Yliopisto toita\GitHub\SearchTreeAI\SearchTreeAI\cmake-build-debug" "E:\Yliopisto toita\GitHub\SearchTreeAI\SearchTreeAI\cmake-build-debug\CMakeFiles\SearchTreeAI.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles\SearchTreeAI.dir\depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: E:/Yliopisto toita/GitHub/SearchTreeAI
+# Install script for directory: E:/Yliopisto toita/GitHub/SearchTreeAI/SearchTreeAI
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/Yliopisto toita/GitHub/SearchTreeAI/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/Yliopisto toita/GitHub/SearchTreeAI/SearchTreeAI/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

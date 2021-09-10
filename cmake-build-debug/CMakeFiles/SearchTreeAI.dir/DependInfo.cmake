@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/Yliopisto toita/GitHub/SearchTreeAI/main.cpp" "E:/Yliopisto toita/GitHub/SearchTreeAI/cmake-build-debug/CMakeFiles/SearchTreeAI.dir/main.cpp.obj"
+  "E:/Yliopisto toita/GitHub/SearchTreeAI/SearchTreeAI/BinarySearchTree.cpp" "E:/Yliopisto toita/GitHub/SearchTreeAI/SearchTreeAI/cmake-build-debug/CMakeFiles/SearchTreeAI.dir/BinarySearchTree.cpp.obj"
+  "E:/Yliopisto toita/GitHub/SearchTreeAI/SearchTreeAI/main.cpp" "E:/Yliopisto toita/GitHub/SearchTreeAI/SearchTreeAI/cmake-build-debug/CMakeFiles/SearchTreeAI.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

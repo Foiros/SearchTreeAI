@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Yliopisto toita/GitHub/SearchTreeAI/SearchTreeAI/BinarySearchTree.cpp
+cstdlib
+-
+cstdio
+-
+BinarySearchTree.h
+E:/Yliopisto toita/GitHub/SearchTreeAI/SearchTreeAI/BinarySearchTree.h
+
+E:/Yliopisto toita/GitHub/SearchTreeAI/SearchTreeAI/BinarySearchTree.h
+

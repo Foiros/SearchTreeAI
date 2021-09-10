@@ -46,10 +46,10 @@ RM = "E:\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "E:\Yliopisto toita\GitHub\SearchTreeAI"
+CMAKE_SOURCE_DIR = "E:\Yliopisto toita\GitHub\SearchTreeAI\SearchTreeAI"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "E:\Yliopisto toita\GitHub\SearchTreeAI\cmake-build-debug"
+CMAKE_BINARY_DIR = "E:\Yliopisto toita\GitHub\SearchTreeAI\SearchTreeAI\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -76,9 +76,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Yliopisto toita\GitHub\SearchTreeAI\cmake-build-debug\CMakeFiles" "E:\Yliopisto toita\GitHub\SearchTreeAI\cmake-build-debug\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Yliopisto toita\GitHub\SearchTreeAI\SearchTreeAI\cmake-build-debug\CMakeFiles" "E:\Yliopisto toita\GitHub\SearchTreeAI\SearchTreeAI\cmake-build-debug\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Yliopisto toita\GitHub\SearchTreeAI\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Yliopisto toita\GitHub\SearchTreeAI\SearchTreeAI\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -118,6 +118,30 @@ SearchTreeAI\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SearchTreeAI.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SearchTreeAI.dir\build
 .PHONY : SearchTreeAI\fast
 
+BinarySearchTree.obj: BinarySearchTree.cpp.obj
+.PHONY : BinarySearchTree.obj
+
+# target to build an object file
+BinarySearchTree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SearchTreeAI.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SearchTreeAI.dir\BinarySearchTree.cpp.obj
+.PHONY : BinarySearchTree.cpp.obj
+
+BinarySearchTree.i: BinarySearchTree.cpp.i
+.PHONY : BinarySearchTree.i
+
+# target to preprocess a source file
+BinarySearchTree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SearchTreeAI.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SearchTreeAI.dir\BinarySearchTree.cpp.i
+.PHONY : BinarySearchTree.cpp.i
+
+BinarySearchTree.s: BinarySearchTree.cpp.s
+.PHONY : BinarySearchTree.s
+
+# target to generate assembly for a file
+BinarySearchTree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SearchTreeAI.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SearchTreeAI.dir\BinarySearchTree.cpp.s
+.PHONY : BinarySearchTree.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -151,6 +175,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... SearchTreeAI
+	@echo ... BinarySearchTree.obj
+	@echo ... BinarySearchTree.i
+	@echo ... BinarySearchTree.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
