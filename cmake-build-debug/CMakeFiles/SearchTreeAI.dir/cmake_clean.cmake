@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/SearchTreeAI.dir/AIActions.cpp.obj"
   "CMakeFiles/SearchTreeAI.dir/BinarySearchTree.cpp.obj"
+  "CMakeFiles/SearchTreeAI.dir/BinaryTreeAI.cpp.obj"
+  "CMakeFiles/SearchTreeAI.dir/Brain.cpp.obj"
+  "CMakeFiles/SearchTreeAI.dir/WorkerPrototype.cpp.obj"
   "CMakeFiles/SearchTreeAI.dir/main.cpp.obj"
   "SearchTreeAI.exe"
   "SearchTreeAI.exe.manifest"

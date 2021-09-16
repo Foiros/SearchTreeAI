@@ -82,10 +82,34 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/Yliopisto toita/GitHub/SearchTreeAI/SearchTreeAI/AIActions.cpp">
+			<Option target="SearchTreeAI"/>
+		</Unit>
+		<Unit filename="E:/Yliopisto toita/GitHub/SearchTreeAI/SearchTreeAI/AIActions.h">
+			<Option target="SearchTreeAI"/>
+		</Unit>
 		<Unit filename="E:/Yliopisto toita/GitHub/SearchTreeAI/SearchTreeAI/BinarySearchTree.cpp">
 			<Option target="SearchTreeAI"/>
 		</Unit>
 		<Unit filename="E:/Yliopisto toita/GitHub/SearchTreeAI/SearchTreeAI/BinarySearchTree.h">
+			<Option target="SearchTreeAI"/>
+		</Unit>
+		<Unit filename="E:/Yliopisto toita/GitHub/SearchTreeAI/SearchTreeAI/BinaryTreeAI.cpp">
+			<Option target="SearchTreeAI"/>
+		</Unit>
+		<Unit filename="E:/Yliopisto toita/GitHub/SearchTreeAI/SearchTreeAI/BinaryTreeAI.h">
+			<Option target="SearchTreeAI"/>
+		</Unit>
+		<Unit filename="E:/Yliopisto toita/GitHub/SearchTreeAI/SearchTreeAI/Brain.cpp">
+			<Option target="SearchTreeAI"/>
+		</Unit>
+		<Unit filename="E:/Yliopisto toita/GitHub/SearchTreeAI/SearchTreeAI/Brain.h">
+			<Option target="SearchTreeAI"/>
+		</Unit>
+		<Unit filename="E:/Yliopisto toita/GitHub/SearchTreeAI/SearchTreeAI/WorkerPrototype.cpp">
+			<Option target="SearchTreeAI"/>
+		</Unit>
+		<Unit filename="E:/Yliopisto toita/GitHub/SearchTreeAI/SearchTreeAI/WorkerPrototype.h">
 			<Option target="SearchTreeAI"/>
 		</Unit>
 		<Unit filename="E:/Yliopisto toita/GitHub/SearchTreeAI/SearchTreeAI/main.cpp">

@@ -118,6 +118,30 @@ SearchTreeAI\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SearchTreeAI.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SearchTreeAI.dir\build
 .PHONY : SearchTreeAI\fast
 
+AIActions.obj: AIActions.cpp.obj
+.PHONY : AIActions.obj
+
+# target to build an object file
+AIActions.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SearchTreeAI.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SearchTreeAI.dir\AIActions.cpp.obj
+.PHONY : AIActions.cpp.obj
+
+AIActions.i: AIActions.cpp.i
+.PHONY : AIActions.i
+
+# target to preprocess a source file
+AIActions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SearchTreeAI.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SearchTreeAI.dir\AIActions.cpp.i
+.PHONY : AIActions.cpp.i
+
+AIActions.s: AIActions.cpp.s
+.PHONY : AIActions.s
+
+# target to generate assembly for a file
+AIActions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SearchTreeAI.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SearchTreeAI.dir\AIActions.cpp.s
+.PHONY : AIActions.cpp.s
+
 BinarySearchTree.obj: BinarySearchTree.cpp.obj
 .PHONY : BinarySearchTree.obj
 
@@ -141,6 +165,78 @@ BinarySearchTree.s: BinarySearchTree.cpp.s
 BinarySearchTree.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SearchTreeAI.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SearchTreeAI.dir\BinarySearchTree.cpp.s
 .PHONY : BinarySearchTree.cpp.s
+
+BinaryTreeAI.obj: BinaryTreeAI.cpp.obj
+.PHONY : BinaryTreeAI.obj
+
+# target to build an object file
+BinaryTreeAI.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SearchTreeAI.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SearchTreeAI.dir\BinaryTreeAI.cpp.obj
+.PHONY : BinaryTreeAI.cpp.obj
+
+BinaryTreeAI.i: BinaryTreeAI.cpp.i
+.PHONY : BinaryTreeAI.i
+
+# target to preprocess a source file
+BinaryTreeAI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SearchTreeAI.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SearchTreeAI.dir\BinaryTreeAI.cpp.i
+.PHONY : BinaryTreeAI.cpp.i
+
+BinaryTreeAI.s: BinaryTreeAI.cpp.s
+.PHONY : BinaryTreeAI.s
+
+# target to generate assembly for a file
+BinaryTreeAI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SearchTreeAI.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SearchTreeAI.dir\BinaryTreeAI.cpp.s
+.PHONY : BinaryTreeAI.cpp.s
+
+Brain.obj: Brain.cpp.obj
+.PHONY : Brain.obj
+
+# target to build an object file
+Brain.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SearchTreeAI.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SearchTreeAI.dir\Brain.cpp.obj
+.PHONY : Brain.cpp.obj
+
+Brain.i: Brain.cpp.i
+.PHONY : Brain.i
+
+# target to preprocess a source file
+Brain.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SearchTreeAI.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SearchTreeAI.dir\Brain.cpp.i
+.PHONY : Brain.cpp.i
+
+Brain.s: Brain.cpp.s
+.PHONY : Brain.s
+
+# target to generate assembly for a file
+Brain.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SearchTreeAI.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SearchTreeAI.dir\Brain.cpp.s
+.PHONY : Brain.cpp.s
+
+WorkerPrototype.obj: WorkerPrototype.cpp.obj
+.PHONY : WorkerPrototype.obj
+
+# target to build an object file
+WorkerPrototype.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SearchTreeAI.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SearchTreeAI.dir\WorkerPrototype.cpp.obj
+.PHONY : WorkerPrototype.cpp.obj
+
+WorkerPrototype.i: WorkerPrototype.cpp.i
+.PHONY : WorkerPrototype.i
+
+# target to preprocess a source file
+WorkerPrototype.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SearchTreeAI.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SearchTreeAI.dir\WorkerPrototype.cpp.i
+.PHONY : WorkerPrototype.cpp.i
+
+WorkerPrototype.s: WorkerPrototype.cpp.s
+.PHONY : WorkerPrototype.s
+
+# target to generate assembly for a file
+WorkerPrototype.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SearchTreeAI.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SearchTreeAI.dir\WorkerPrototype.cpp.s
+.PHONY : WorkerPrototype.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -175,9 +271,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... SearchTreeAI
+	@echo ... AIActions.obj
+	@echo ... AIActions.i
+	@echo ... AIActions.s
 	@echo ... BinarySearchTree.obj
 	@echo ... BinarySearchTree.i
 	@echo ... BinarySearchTree.s
+	@echo ... BinaryTreeAI.obj
+	@echo ... BinaryTreeAI.i
+	@echo ... BinaryTreeAI.s
+	@echo ... Brain.obj
+	@echo ... Brain.i
+	@echo ... Brain.s
+	@echo ... WorkerPrototype.obj
+	@echo ... WorkerPrototype.i
+	@echo ... WorkerPrototype.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

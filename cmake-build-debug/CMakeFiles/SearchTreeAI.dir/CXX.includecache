@@ -6,13 +6,29 @@
 
 #IncludeRegexTransform: 
 
-E:/Yliopisto toita/GitHub/SearchTreeAI/SearchTreeAI/BinarySearchTree.cpp
+E:/Yliopisto toita/GitHub/SearchTreeAI/SearchTreeAI/AIActions.h
+cstdint
+-
+BinaryTreeAI.h
+E:/Yliopisto toita/GitHub/SearchTreeAI/SearchTreeAI/BinaryTreeAI.h
+
+E:/Yliopisto toita/GitHub/SearchTreeAI/SearchTreeAI/BinaryTreeAI.cpp
+BinaryTreeAI.h
+E:/Yliopisto toita/GitHub/SearchTreeAI/SearchTreeAI/BinaryTreeAI.h
+
+E:/Yliopisto toita/GitHub/SearchTreeAI/SearchTreeAI/BinaryTreeAI.h
 cstdlib
 -
 cstdio
 -
-BinarySearchTree.h
-E:/Yliopisto toita/GitHub/SearchTreeAI/SearchTreeAI/BinarySearchTree.h
 
-E:/Yliopisto toita/GitHub/SearchTreeAI/SearchTreeAI/BinarySearchTree.h
+E:/Yliopisto toita/GitHub/SearchTreeAI/SearchTreeAI/Brain.cpp
+Brain.h
+E:/Yliopisto toita/GitHub/SearchTreeAI/SearchTreeAI/Brain.h
+
+E:/Yliopisto toita/GitHub/SearchTreeAI/SearchTreeAI/Brain.h
+BinaryTreeAI.h
+E:/Yliopisto toita/GitHub/SearchTreeAI/SearchTreeAI/BinaryTreeAI.h
+AIActions.h
+E:/Yliopisto toita/GitHub/SearchTreeAI/SearchTreeAI/AIActions.h
 

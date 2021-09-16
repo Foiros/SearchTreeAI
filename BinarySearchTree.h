@@ -5,12 +5,15 @@
 #ifndef SEARCHTREEAI_BINARYSEARCHTREE_H
 #define SEARCHTREEAI_BINARYSEARCHTREE_H
 
-struct Node{
+#include <cstdlib>
+#include <cstdio>
 
-    int data;
-    struct Node* left_child;
-    struct Node* right_child;
-};
+//struct Node{
+//
+//    int data;
+//    struct Node* left_child;
+//    struct Node* right_child;
+//};
 
 class BinarySearchTree {
 
